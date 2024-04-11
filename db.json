@@ -1,53 +1,54 @@
-[
+{
+    "phones": [
     {
         "id": "1",
         "name": "Apple iPad Air",
         "imageUrl": "photos/ipad-air.jpeg",
-        "Price": "$749.00",
-        "Capacity": "256 GB"
+        "price": "$749.00",
+        "description": "256 GB"
     },
     {
         "id": "2",
         "name": "Apple iPhone 12 Mini",
         "imageUrl": "photos/iphone-12.jpeg",
-        "Price": "$248.00",
-        "Capacity": "256 GB"
+        "price": "$248.00",
+        "description": "256 GB"
     },
     {
         "id": "3",
         "name": "Apple iPhone 13 Pro Max",
         "imageUrl": "photos/iphone-13.jpeg",
-        "Price": "$549.00",
-        "Capacity ": "512 GB"
+        "price": "$549.00",
+        "description": "512 GB"
     },
     {
         "id": "4",
         "name": "Apple iPhone 11",
         "imageUrl": "photos/iphone-11.jpeg",
-        "Price": "$289.99",
-        "Capacity": "64 GB"
+        "price": "$289.99",
+        "description": "64 GB"
     },
     {
         "id": "5",
         "name": "Samsung Galaxy Z Fold4",
         "imageUrl": "photos/SGalaxy-Fold4.jpeg",
-        "Price": "$529.99",
-        "Capacity": "512 GB"
+        "price": "$529.99",
+        "description": "512 GB"
     },
     {
         "id": "6",
         "name": "Apple ipad 8th Gen",
         "imageUrl": "photos/ipad-8-Gen.jpeg",
-        "Price": "$649.99",
-        "Capacity":"256 GB"
+        "price": "$649.99",
+        "description":"256 GB"
     },
     {
         "id": "7",
         "name": "Apple iphone 15",
         "imageUrl" : "photos/iphone-15.jpeg",
-        "Price":"$899.99",
-        "Capacity": "256 GB"
+        "price":"$899.99",
+        "description": "256 GB"
     }
-    
-]
+  ] 
+}
     
