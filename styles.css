@@ -8,14 +8,40 @@ nav{
     background-color: whitesmoke;
     border-bottom: 1px solid #edededec;
     display: flex;
-    padding: 0px 90px;
+    padding: 0px 100px;
     justify-content: space-between;
+    position: fixed;
 }
 #heading{
     display: flex;
     gap: 650px;
     align-items: center;
-}
+}    
 .nav-items{
     list-style-type: none;
+}
+#output img{
+    width: 250px;
+    height: 250px;
+}
+#output .card{
+    margin-top: 60px;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 16px; 
+    text-align: center;
+    background-color: #f1f1f1;
+}
+footer{
+    display: block;
+    position: absolute;
+    bottom: 0%;
+}
+#login-details{
+    position: absolute;
+    display: block;
+    bottom: 0;
 }

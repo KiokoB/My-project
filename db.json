@@ -3,49 +3,49 @@
     {
         "id": "1",
         "name": "Apple iPad Air",
-        "imageUrl": "photos/ipad-air.jpeg",
+        "img": "photos/ipad-air.jpeg",
         "price": "$749.00",
         "description": "256 GB"
     },
     {
         "id": "2",
         "name": "Apple iPhone 12 Mini",
-        "imageUrl": "photos/iphone-12.jpeg",
+        "img": "photos/iphone-12.jpeg",
         "price": "$248.00",
         "description": "256 GB"
     },
     {
         "id": "3",
         "name": "Apple iPhone 13 Pro Max",
-        "imageUrl": "photos/iphone-13.jpeg",
+        "img": "https://images.pexels.com/photos/16004744/pexels-photo-16004744/free-photo-of-apple-iphone-14-pro-max-mobile-phone.jpeg?auto=compress&cs=tinysrgb&w=600",
         "price": "$549.00",
         "description": "512 GB"
     },
     {
         "id": "4",
         "name": "Apple iPhone 11",
-        "imageUrl": "photos/iphone-11.jpeg",
+        "img": "https://phonesstorekenya.com/wp-content/uploads/2019/09/Apple-iPhone-11-White-600x600.jpg",
         "price": "$289.99",
         "description": "64 GB"
     },
     {
         "id": "5",
         "name": "Samsung Galaxy Z Fold4",
-        "imageUrl": "photos/SGalaxy-Fold4.jpeg",
+        "img": "https://images.samsung.com/is/image/samsung/p6pim/sg/2208/gallery/sg-galaxy-z-fold4-f936-429940-sm-f936bdrdxsp-533138309?$730_584_PNG$",
         "price": "$529.99",
         "description": "512 GB"
     },
     {
         "id": "6",
         "name": "Apple ipad 8th Gen",
-        "imageUrl": "photos/ipad-8-Gen.jpeg",
+        "img": "https://www.digitalstore.co.ke/cdn/shop/products/A1MYML2BA_2_Supersize_800x.jpg?v=1624536966",
         "price": "$649.99",
         "description":"256 GB"
     },
     {
         "id": "7",
         "name": "Apple iphone 15",
-        "imageUrl" : "photos/iphone-15.jpeg",
+        "img" : "https://www.priceinkenya.com/_ipx/b_%23ffffff,f_webp,q_75,fit_contain,s_640x640/https://api.priceinkenya.com/media/134484/conversions/Apple-iPhone-15-j-original.webp",
         "price":"$899.99",
         "description": "256 GB"
     }
