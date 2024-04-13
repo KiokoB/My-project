@@ -10,28 +10,31 @@
 <body>
     <nav>
         <div id="heading">
-            <h1>BK's PHONE STORE</h1>
-            <ul class="nav-items">
+            <img src="photos/bk-logo-design.avif" alt="bk logo">
+            <!-- <div id="name"> -->
+             <h1>BK's PHONE STORE</h1>
+             <ul class="nav-items">
                 <!-- <li class="nav-item"><a href="">Login</a></li> -->
                 <!-- A button to open the popup form -->
-<button class="open-button" click="openForm()">Login Form</button>
+              <button class="open-button" click="openForm()">Login Form</button>
 
-<!-- The form -->
-<div class="form-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Login</h1>
+                <!-- The form -->
+                <div class="form-popup" id="myForm">
+                 <form action="/action_page.php" class="form-container">
+                 <h1>Login</h1>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+                 <label for="email"><b>Email</b></label>
+                 <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+                 <label for="psw"><b>Password</b></label>
+                 <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <button type="submit" class="btn">Login</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div>
-            </ul>
+                 <button type="submit" class="btn">Login</button>
+                 <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                 </form>
+                </div>
+             </ul>
+            <!-- </div> -->
         </div>
     </nav>
      <div id="output">

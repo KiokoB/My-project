@@ -16,12 +16,24 @@ nav{
 #heading{
     display: flex;
     align-items: center;
-    gap: 650px;
+    /* gap: 500px; */
+}
+/* #name{
+    align-items: center;
+    gap: 400px;
+} */
+#heading img{
+    width: 80px;
+    height: 70px;
+    gap: 0;
 }
 .nav-items{
     list-style-type: none;
     display: flex;
+    /* float: right;
+    right: 1000px; */
 }
+/* } */
 /* .nav-item{
     display: flex;
     align-items: center;

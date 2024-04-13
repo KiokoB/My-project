@@ -1,10 +1,19 @@
 {
   "phones": [
     {
+      "id": "1",
+      "name": "Apple ipad air",
+      "img": "photos/ipad-air.jpeg",
+      "price": "$348.00",
+      "quantity": "50 items in stock",
+      "description": "256 GB"
+    },
+    {
       "id": "2",
       "name": "Apple iPhone 12 Mini",
       "img": "photos/iphone-12.jpeg",
       "price": "$248.00",
+      "quantity": "15 items in stock",
       "description": "256 GB"
     },
     {
@@ -12,13 +21,15 @@
       "name": "Apple iPhone 13 Pro Max",
       "img": "photos/iphone-13.jpeg",
       "price": "$549.00",
-      "description": "512 GB"
+      "quantity": "10 items in stock",
+      "description": "256 GB"
     },
     {
       "id": "4",
       "name": "Apple iPhone 11",
       "img": "photos/iphone-11.jpeg",
       "price": "$289.99",
+      "quantity": "25 items in stock",
       "description": "64 GB"
     },
     {
@@ -26,6 +37,7 @@
       "name": "Apple iphone 10",
       "img": "photos/iphone10.jpeg",
       "price": "$529.99",
+      "quantity": "35 items in stock",
       "description": "512 GB"
     },
     {
@@ -33,6 +45,7 @@
       "name": "Apple ipad 8th Gen",
       "img": "photos/ipad-8-Gen.jpeg",
       "price": "$649.99",
+      "quantity": "20 items in stock",
       "description": "256 GB"
     },
     {
@@ -40,6 +53,7 @@
       "name": "Apple iphone 15",
       "img": "photos/iphone-15.jpeg",
       "price": "$899.99",
+      "quantity": "50 items in stock",
       "description": "256 GB"
     },
     {
@@ -47,6 +61,7 @@
       "name": "Apple iphone 8",
       "img": "photos/iphone-8.jpeg",
       "price": "$699.99",
+      "quantity": "30 items in stock",
       "description": "254 GB"
     }
   ]
