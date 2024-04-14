@@ -34,14 +34,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         })
         output.appendChild(div)  
 
-     };
-// //Add event listner
- //const purchase = document.getElementById('purchase')
-// console.log(purchase)
-
-//   purchase.addEventListener('click', ()=>{
-//     alert ('Purchase item')})     
-
+     };    
 
 //Make a get request to obtain data
 function getPhones(){
@@ -50,6 +43,23 @@ function getPhones(){
         .then((data)=> data.forEach((phone)=>renderList(phone)))
     };
     getPhones()
+
+
+//Make a post request
+function postReview(){
+    fetch(baseUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body:JSON.stringify()
+    })
+    .then(response=>response.json())
+    .then()
+}
+
+
+
 
 //Make a patch request
 function updateData(phone){
