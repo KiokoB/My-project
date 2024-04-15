@@ -5,7 +5,7 @@
       "name": "Apple ipad air",
       "img": "photos/ipad-air.jpeg",
       "price": "$348.00",
-      "quantity": "35 items in stock",
+      "quantity": null,
       "description": "256 GB"
     },
     {
@@ -67,24 +67,8 @@
   ],
   "comments": [
     {
-      "content": "hey,nice",
+      "content": "such good quality",
       "id": 1
-    },
-    {
-      "content": "hey,nice",
-      "id": 2
-    },
-    {
-      "content": "hey,nice",
-      "id": 3
-    },
-    {
-      "content": "hey,nice",
-      "id": 4
-    },
-    {
-      "content": "hey,nice",
-      "id": 5
     }
   ]
 }
