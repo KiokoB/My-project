@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
         `
         const buy =div.querySelector('#purchase')
         buy.addEventListener('click', ()=>{
-           // phone.quantity = 1
-            //div.querySelector('span').textContent = phone.quantity - 1;
-            const remainingStock =(phone.quantity - 1)
-            div.querySelector('span').textContent = remainingStock;
+            phone.quantity --
+            div.querySelector('span').textContent = phone.quantity;
+            //const remainingStock =(phone.quantity - 1)
+            //div.querySelector('span').textContent = remainingStock;
             updateData(phone)
         });
 
@@ -35,10 +35,27 @@ document.addEventListener('DOMContentLoaded', ()=>{
         output.appendChild(div)  
 
      };    
+     document.getElementById('comment-form').addEventListener('submit', handleSubmit)
+function handleSubmit(e){
+    // document.getElementById('comment-form').addEventListener('submit',(e)=>{
+        e.preventDefault()
+    //})
+    let commentList={
+        content: e.target.comment.value
+    }
+    const listComments = document.getElementById('comments-list')
+    const li = document.createElement('li')
+    li.textContent=  e.target.comment.value
+    listComments.appendChild(li)
+    
+    addComments(commentList) 
+    // console.log(commentList)
+} 
+     
 
 //Make a get request to obtain data
 function getPhones(){
-        fetch(baseUrl)
+        fetch(`${baseUrl}`)
         .then(response =>response.json())
         .then((data)=> data.forEach((phone)=>renderList(phone)))
     };
@@ -46,18 +63,18 @@ function getPhones(){
 
 
 //Make a post request
-function postReview(){
-    fetch(baseUrl, {
+function addComments(commentList){
+    fetch('http://localhost:3000/comments', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
-        body:JSON.stringify()
+        body:JSON.stringify(commentList)
     })
     .then(response=>response.json())
-    .then()
+    .then(comment=>console.log(comment))
 }
-
+//addComments()
 
 
 
@@ -73,6 +90,7 @@ function updateData(phone){
     .then(response=>response.json())
     .then(phone=> console.log(phone))
 }
+updateData()
 
 
 
@@ -87,8 +105,19 @@ function deletePhone(id){
     })
     .then(response=>response.json())
     .then(phone=>console.log(phone))
+    .catch(error => console.error('Error deleting phonr:',error))
 }
-deletePhone()
+//Function to check stock status periodically
+function checkStockStatus(){
+    phones.forEach(phone => {
+        if(phone.quantity === 0){
+            deletePhone(phone.id)
+        }
+    });
+}
+//Call checkStockStatus periodically
+setInterval(checkStockStatus,3600000);
+//deletePhone()
 
 
 
@@ -100,6 +129,20 @@ login.addEventListener('click',()=>{
 })
 
 
+// //Add a new comment
+// function addComments(comments){
+//     const comment = document.getElementById('comment');
+//     const newComment = comment.value
+//     const listComments = document.getElementById('comments-list')
+//     const li = document.createElement('li')
+//     li.textContent= newComment.toString()
+//     listComments.appendChild(li)
+// }  
+// //Add event listener
+// document.getElementById('comment-form').addEventListener('submit',(event)=>{
+//     event.preventDefault()
+//     addComments(comments);
+// });
 })
 
 

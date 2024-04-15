@@ -85,3 +85,16 @@ footer{
 .form-container .cancel {
     background-color: red;
   }
+#comment-section{
+    padding: 400px 70px;
+    display: block;
+    /* margin-left: 10px; */
+}
+/* #comment-section, h4{
+    padding-top: 250px;
+} */
+#comments-list{
+    margin-bottom: 45px;
+    display: block;
+    list-style-type: none;
+}

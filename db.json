@@ -5,15 +5,15 @@
       "name": "Apple ipad air",
       "img": "photos/ipad-air.jpeg",
       "price": "$348.00",
-      "quantity": "50 items in stock",
+      "quantity": "35 items in stock",
       "description": "256 GB"
     },
     {
       "id": "2",
       "name": "Apple iPhone 12 Mini",
       "img": "photos/iphone-12.jpeg",
-      "price": "$248.00",
-      "quantity": "15 items in stock",
+      "price": "$349.00",
+      "quantity": "5 items in stock",
       "description": "256 GB"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Apple iPhone 11",
       "img": "photos/iphone-11.jpeg",
       "price": "$289.99",
-      "quantity": "25 items in stock",
+      "quantity": "15 items in stock",
       "description": "64 GB"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Apple iphone 15",
       "img": "photos/iphone-15.jpeg",
       "price": "$899.99",
-      "quantity": "50 items in stock",
+      "quantity": "25 items in stock",
       "description": "256 GB"
     },
     {
@@ -63,6 +63,28 @@
       "price": "$699.99",
       "quantity": "30 items in stock",
       "description": "254 GB"
+    }
+  ],
+  "comments": [
+    {
+      "content": "hey,nice",
+      "id": 1
+    },
+    {
+      "content": "hey,nice",
+      "id": 2
+    },
+    {
+      "content": "hey,nice",
+      "id": 3
+    },
+    {
+      "content": "hey,nice",
+      "id": 4
+    },
+    {
+      "content": "hey,nice",
+      "id": 5
     }
   ]
 }
